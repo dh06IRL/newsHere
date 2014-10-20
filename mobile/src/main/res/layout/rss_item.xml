@@ -1,0 +1,61 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/article_image"
+            android:background="@color/background_material_dark"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:textSize="34sp"
+                android:text="Welcome to my blog!"
+                android:transitionName="robot"
+                android:textColor="@color/google_now_text_color"
+                android:id="@+id/rss_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="roboto_light" />
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:textSize="14sp"
+                android:layout_margin="10dp"
+                android:text="Welcome to my blog!"
+                android:textColor="@color/google_now_text_color"
+                android:id="@+id/rss_desc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="roboto_light" />
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:text="sept, 12th, 2014"
+                android:id="@+id/rss_pub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/google_now_text_color"
+                app:typeface="roboto_light" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

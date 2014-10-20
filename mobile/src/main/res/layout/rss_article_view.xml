@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/google_now_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:textIsSelectable="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/title_holder"
+            android:background="@color/menu_white_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:elevation="5dp"
+            android:orientation="vertical" >
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:layout_marginTop="@dimen/article_top"
+                android:textSize="34sp"
+                android:transitionName="robot"
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                app:typeface="roboto_slab_light" />
+
+        </LinearLayout>
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/article_auth"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/black_overlay"
+            app:typeface="roboto_light" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/article_date"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black_overlay"
+            app:typeface="roboto_light" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/article_content"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/black_overlay"
+            app:typeface="roboto_light" />
+
+    </LinearLayout>
+</ScrollView>
