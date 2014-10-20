@@ -2,11 +2,29 @@
 <pre-dex-items>
 
     <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/support-annotations-20.0.0-ee7deea1ae2e0735ab1826d279dc3697aeade0da.jar"
+        jar="/Applications/Android Studio 2.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-9e7299aff09d8ec1c2b0667092d8182698c1529d.jar"
         jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
         jumboMode="false"
         revision="21.0.0"
         sha1="7d2525cba8ed61fff102977caed964fc22061e34"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/classes-14ea2a0fcf96a572f694c50dabe7ee76f8c04d1b.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.1.11/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="711351f12980fffdff7f1b0be9303ac6611affd8"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/classes-3a421b6d47697e90166bec76222a5620067ef096.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56"/>
     <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-d4a496eff6e18d479619215224b65c45ff86f9f6.jar"
         jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
@@ -20,17 +38,17 @@
         revision="21.0.0"
         sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
     <item
-        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-a41cd3d29cbb903f4a1d366d004f0762acdd5b4f.jar"
-        jar="/Applications/Android Studio 2.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="21.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
-    <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/okio-1.0.0-7a38496fbbe1301b65aada1ceca612992a66f50c.jar"
         jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
         jumboMode="false"
         revision="21.0.0"
         sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-a41cd3d29cbb903f4a1d366d004f0762acdd5b4f.jar"
+        jar="/Applications/Android Studio 2.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
     <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-d6398fcc6b3dcbe849d2a67b9e5349bd5db44d73.jar"
         jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/classes.jar"
@@ -62,11 +80,35 @@
         revision="21.0.0"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
     <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/classes-240705478c34f11f91ab8b281fff1aaefb491c28.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/internal_impl-20.0.0-92c583f194c9d5f4152ca63d0473d6f85d89dadb.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-aea21ab5393fab58c23647516f5746b2c68bd41a.jar"
         jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
         jumboMode="false"
         revision="21.0.0"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/internal_impl-20.0.0-3dc0004e35f84e47e87391ca7443ab1e79e98aee.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/classes-6094874c71ef445d1ad88e170918a416dd083267.jar"
+        jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-13dab7fdf9285206fb8d360007664b0fee73dfc6.jar"
         jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
