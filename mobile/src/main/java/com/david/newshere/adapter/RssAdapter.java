@@ -4,7 +4,13 @@ import android.app.Activity;
 import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
+import android.text.Editable;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +22,8 @@ import com.david.newshere.activity.ArticleActivity;
 import com.david.newshere.R;
 import com.pkmmte.pkrss.Article;
 import com.squareup.picasso.Picasso;
+
+import org.xml.sax.XMLReader;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -79,16 +87,32 @@ public class RssAdapter extends BaseAdapter {
         final TextView mTitle = (TextView) view.findViewById(R.id.rss_title_text);
         TextView mAuthor = (TextView) view.findViewById(R.id.rss_desc_text);
         TextView mPubDate = (TextView) view.findViewById(R.id.rss_pub_text);
-        ImageView mImage = (ImageView) view.findViewById(R.id.article_image);
+        final ImageView mImage = (ImageView) view.findViewById(R.id.article_image);
 
-        Picasso.with(context).load(mItem.getImage()).into(mImage);
+        Html.fromHtml(mItem.getDescription().toString(), new Html.ImageGetter() {
+                    @Override
+                    public Drawable getDrawable(String source) {
+                        try {
+                            Log.d("image", source);
+                        }catch (Exception e){
+                            Log.e("image", e.toString());
+                        }
+                        Picasso.with(context).load(source).into(mImage);
+                        return null;
+                    }
+                }, new Html.TagHandler() {
+                    @Override
+                    public void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) {
+
+                    }
+                });
+
 
         long time = mItem.getDate();
         final Date date = new Date(time);
         final SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd k:mma");
         format.setTimeZone(TimeZone.getDefault());
 
-        mImage.setVisibility(View.GONE);
         mTitle.setText(mItem.getTitle());
         mAuthor.setText(mItem.getAuthor());
         mPubDate.setText(format.format(date));

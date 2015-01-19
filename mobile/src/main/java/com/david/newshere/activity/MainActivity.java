@@ -29,16 +29,24 @@ import android.widget.Toast;
 
 import com.david.newshere.R;
 import com.david.newshere.adapter.RssAdapter;
+import com.david.newshere.rss.RssItem;
+import com.david.newshere.rss.RssReader;
 import com.david.newshere.utils.SystemBarTintManager;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationClient;
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
 import com.nhaarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter;
 import com.pkmmte.pkrss.Article;
 import com.pkmmte.pkrss.Callback;
 import com.pkmmte.pkrss.PkRSS;
 import com.pkmmte.pkrss.parser.Rss2Parser;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.XML;
 
 import java.util.List;
 import java.util.Locale;
@@ -131,6 +139,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void getNews(){
+        new GetRssFeed().execute("https://itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/newreleases/sf=143441/limit=100/rss.xml");
+
         PkRSS.with(this)
                 .load("http://news.google.com/news/feeds?output=rss&geo=" + zipCode)
                 .callback(new Callback() {
@@ -254,5 +264,26 @@ public class MainActivity extends ActionBarActivity {
             winParams.flags &= ~bits1;
         }
         win.setAttributes(winParams);
+    }
+
+    private class GetRssFeed extends AsyncTask<String, Void, Void> {
+        @Override
+        protected Void doInBackground(String... params) {
+            try {
+                RssReader rssReader = new RssReader(params[0]);
+                for (RssItem item : rssReader.getItems())
+                    Log.v("data", item.getTitle() + " " + item.getImageUrl());
+            } catch (Exception e) {
+                Log.v("Error Parsing Data", e + "");
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+//            adapter.notifyDataSetChanged();
+//            mList.setAdapter(adapter);
+        }
     }
 }

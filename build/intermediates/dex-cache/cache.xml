@@ -50,17 +50,23 @@
         revision="21.0.0"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
     <item
-        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-d6398fcc6b3dcbe849d2a67b9e5349bd5db44d73.jar"
-        jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/classes.jar"
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/java-json-d64b6810c54ec7fd797839f9972bfeaca9e316ea.jar"
+        jar="/Users/davidhodge/Documents/newsHere/mobile/libs/java-json.jar"
         jumboMode="false"
         revision="21.0.0"
-        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6"/>
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3"/>
     <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-feb0fb6b6c5a0f3d46330e51a26b8bd9eea5056e.jar"
         jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.0.0/classes.jar"
         jumboMode="false"
         revision="21.0.0"
         sha1="6dd1d5903c209d88347edb89b9cec7a183986268"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/ion-2.0.0-58487a45f5dc3bce1662609008e446251cf20941.jar"
+        jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.0.0/9e93d64dc384a162a53d363678cb833ac61fefd4/ion-2.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="9e93d64dc384a162a53d363678cb833ac61fefd4"/>
     <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/okhttp-2.0.0-392653834016e1dd00ca30c4d76abdb811ecb16f.jar"
         jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
@@ -98,6 +104,12 @@
         revision="21.0.0"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
     <item
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/classes-a20f0d8c8405da23e9ab7edbf9b49d7d29c37c68.jar"
+        jar="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
         dex="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/pre-dexed/release/internal_impl-20.0.0-3dc0004e35f84e47e87391ca7443ab1e79e98aee.jar"
         jar="/Users/davidhodge/Documents/newsHere/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
@@ -122,10 +134,22 @@
         revision="21.0.0"
         sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27"/>
     <item
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/androidasync-2.0.0-4e12513b4aaa9601c6b9df1cc7d4da107305603e.jar"
+        jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.0.0/7b07bbed94717bfc4ed2c5e49baacbe1d46fca39/androidasync-2.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="7b07bbed94717bfc4ed2c5e49baacbe1d46fca39"/>
+    <item
         dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/library-2.6.0-6c646dd069c5bd3b8059eca8ebaa5289c443771b.jar"
         jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.nhaarman.listviewanimations/library/2.6.0/59351ccb0a1631d30358f6a92749a072f2df7602/library-2.6.0.jar"
         jumboMode="false"
         revision="21.0.0"
         sha1="59351ccb0a1631d30358f6a92749a072f2df7602"/>
+    <item
+        dex="/Users/davidhodge/Documents/newsHere/mobile/build/intermediates/pre-dexed/debug/gson-2.3-c81751f80fdf4008d8c0ee86a636c36c053c7b9c.jar"
+        jar="/Users/davidhodge/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce"/>
 
 </pre-dex-items>
